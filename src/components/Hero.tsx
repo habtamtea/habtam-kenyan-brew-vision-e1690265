@@ -17,13 +17,13 @@ const Hero = () => {
 
       {/* Content */}
       <div className="container relative z-10 px-4 py-20 text-center text-primary-foreground">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight font-serif">
           HABTAM LIMITED
         </h1>
-        <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto font-light">
+        <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto font-light font-serif">
           Premium Kenyan Tea Exports
         </p>
-        <p className="text-lg md:text-xl mb-12 max-w-2xl mx-auto opacity-90">
+        <p className="text-lg md:text-xl mb-12 max-w-2xl mx-auto opacity-90 font-sans">
           Sourcing the finest quality tea from Kenya's highlands, delivering excellence to importers worldwide
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

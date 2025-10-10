@@ -8,10 +8,10 @@ const About = () => {
       <div className="container px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground font-serif">
               About Habtam Limited
             </h2>
-            <p className="text-lg text-muted-foreground mb-6">
+            <p className="text-lg text-muted-foreground mb-6 font-sans">
               Habtam Ltd is a specialized agricultural export company dealing in premium quality tea from Kenya. 
               We perform complete buyer, importer, and exporter services, ensuring the highest standards of quality 
               and service.
