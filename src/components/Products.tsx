@@ -50,10 +50,10 @@ const products = [
     }
   },
   {
-    name: "Silver Needle Orthodox",
+    name: "Golden Needle Orthodox",
     image: teaSilver,
     liquorImage: liquorSilver,
-    grade: "Premium Silver Needle",
+    grade: "Premium Golden Needle",
     description: "Finest quality silver needle tea with exceptional clarity and refinement",
     type: "White Tea",
     liquorColor: "Silvery-white with golden undertones, brilliant clarity",
