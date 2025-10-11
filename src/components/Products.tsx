@@ -21,7 +21,7 @@ const products = [
     name: "Premium Black Tea",
     image: teaBlack,
     liquorImage: liquorBlack,
-    grade: "BP1 (Broken Pekoe 1)",
+    grade: "FOP (Flowery Orange Pekoe)",
     description: "Our flagship premium black tea with exceptional character and depth",
     type: "Orthodox Black",
     liquorColor: "Deep reddish-brown with amber highlights",
