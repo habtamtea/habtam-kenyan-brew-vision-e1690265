@@ -18,7 +18,7 @@ import liquorCTC from "@/assets/liquor-ctc.jpg";
 
 const products = [
   {
-    name: "Premium Black Tea BP1",
+    name: "Premium Black Tea",
     image: teaBlack,
     liquorImage: liquorBlack,
     grade: "BP1 (Broken Pekoe 1)",
