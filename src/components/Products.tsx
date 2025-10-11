@@ -89,7 +89,7 @@ const products = [
     liquorImage: liquorCTC,
     grade: "D1 (Dust Grade 1)",
     description: "Strong, brisk tea perfect for tea bags and robust blends",
-    type: "CTC Processed",
+    type: "CTC Black",
     liquorColor: "Dark coppery-red, intense and full-bodied",
     taste: "Bold and brisk with strong malty character. Robust astringency balanced with natural sweetness. Excellent for blending with milk and sugar.",
     brewing: {
@@ -137,7 +137,7 @@ const products = [
     liquorImage: liquorCTC,
     grade: "Dust (Fine Grade)",
     description: "Ultra-fine particles for maximum strength and color",
-    type: "CTC Processed",
+    type: "CTC Black",
     liquorColor: "Very dark brown-red, intense color",
     taste: "Extremely strong and astringent. Bold malty flavor with powerful tannins. Best suited for blending with other teas or for those who prefer very strong tea.",
     brewing: {
