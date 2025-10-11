@@ -17,7 +17,7 @@ const Hero = () => {
 
       {/* Content */}
       <div className="container relative z-10 px-4 py-20 text-center text-primary-foreground">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight font-serif">
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight font-bigilla">
           HABTAM LIMITED
         </h1>
         <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto font-light font-serif">

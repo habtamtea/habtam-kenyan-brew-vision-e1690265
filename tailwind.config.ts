@@ -14,6 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
+        'bigilla': ['Bigilla', 'serif'],
         'serif': ['Cormorant Garamond', 'serif'],
         'sans': ['Inter', 'sans-serif'],
       },
