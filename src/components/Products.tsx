@@ -17,6 +17,7 @@ import liquorSilver from "@/assets/liquor-silver.jpg";
 import liquorGolden from "@/assets/liquor-golden.jpg";
 import liquorCTC from "@/assets/liquor-ctc.jpg";
 import liquorPF1 from "@/assets/liquor-pf1.jpg";
+import liquorGreen from "@/assets/liquor-green.jpg";
 
 const products = [
   {
@@ -166,17 +167,17 @@ const products = [
   {
     name: "Green Teas",
     image: teaPF1,
-    liquorImage: liquorPF1,
-    grade: "PF1 (Pekoe Fannings 1)",
-    description: "Premium fannings grade delivering consistent strength and excellent value",
-    type: "Orthodox Black",
-    liquorColor: "Bright reddish-brown with good clarity and amber highlights",
-    taste: "Brisk and full-bodied with balanced astringency. Strong malty character with pleasant sweetness. Quick infusion produces a robust, flavorful cup suitable for any time of day.",
+    liquorImage: liquorGreen,
+    grade: "Premium Green",
+    description: "Fresh, vibrant green tea with delicate character and natural sweetness",
+    type: "Green Tea",
+    liquorColor: "Light yellow-green with brilliant clarity and fresh appearance",
+    taste: "Fresh and vegetal with grassy notes, hints of seaweed, and natural sweetness. Delicate umami character with a clean, refreshing finish and no astringency.",
     brewing: {
-      temperature: "95-100°C (203-212°F)",
+      temperature: "70-80°C (158-176°F)",
       time: "2-3 minutes",
       ratio: "2g per 200ml water",
-      instructions: "Quick brewing due to small particle size. Ideal for tea bags and blending. Produces consistent strength and color. Excellent base for flavored teas."
+      instructions: "Use cooler water to prevent bitterness. First infusion 2-3 minutes, can be re-steeped 2-3 times. Best enjoyed without milk or sugar to appreciate the delicate flavor."
     }
   },
 ];
