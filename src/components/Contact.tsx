@@ -37,7 +37,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Phone</h3>
-                    <p className="text-muted-foreground">+254 XXX XXX XXX</p>
+                    <p className="text-muted-foreground">+254 722 670995</p>
                   </div>
                 </CardContent>
               </Card>
@@ -49,7 +49,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Location</h3>
-                    <p className="text-muted-foreground">Nairobi, Kenya</p>
+                    <p className="text-muted-foreground">Oriental Building, 1st Floor, Nkurumah Road, Mombasa Kenya</p>
                   </div>
                 </CardContent>
               </Card>
