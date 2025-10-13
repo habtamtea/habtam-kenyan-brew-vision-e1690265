@@ -164,7 +164,7 @@ const products = [
     }
   },
   {
-    name: "Pekoe Fannings",
+    name: "Green Teas",
     image: teaPF1,
     liquorImage: liquorPF1,
     grade: "PF1 (Pekoe Fannings 1)",
