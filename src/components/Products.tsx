@@ -69,7 +69,7 @@ const products = [
     }
   },
   {
-    name: "Golden Tips GFOP",
+    name: "Premium Black Tea",
     image: teaGolden,
     liquorImage: liquorGolden,
     grade: "GFOP (Golden Flowery Orange Pekoe)",
@@ -85,7 +85,7 @@ const products = [
     }
   },
   {
-    name: "CTC Dust Grade D1",
+    name: "Premium Black Tea",
     image: teaDust,
     liquorImage: liquorCTC,
     grade: "D1 (Dust Grade 1)",
@@ -101,7 +101,7 @@ const products = [
     }
   },
   {
-    name: "Broken Pekoe Fannings",
+    name: "Premium Black Tea",
     image: teaFannings,
     liquorImage: liquorBlack,
     grade: "BPF (Broken Pekoe Fannings)",
@@ -117,7 +117,7 @@ const products = [
     }
   },
   {
-    name: "Broken Pekoe",
+    name: "Premium Black Tea",
     image: teaPekoe,
     liquorImage: liquorBlack,
     grade: "BP (Broken Pekoe)",
@@ -133,7 +133,7 @@ const products = [
     }
   },
   {
-    name: "Fine Dust Grade",
+    name: "Premium Black Tea",
     image: teaDustFine,
     liquorImage: liquorCTC,
     grade: "Dust (Fine Grade)",
@@ -149,7 +149,7 @@ const products = [
     }
   },
   {
-    name: "CTC Premium Grade",
+    name: "Premium Black Tea",
     image: teaCTC,
     liquorImage: liquorCTC,
     grade: "CTC Premium",
