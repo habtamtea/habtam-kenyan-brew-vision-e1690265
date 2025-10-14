@@ -12,6 +12,7 @@ import teaDustFine from "@/assets/tea-dust-fine.jpg";
 import teaCTC from "@/assets/tea-ctc.jpg";
 import teaPF1 from "@/assets/tea-pf1.jpg";
 import teaPurple from "@/assets/tea-purple.jpg";
+import teaOolong from "@/assets/tea-oolong.jpg";
 import liquorBlack from "@/assets/liquor-black.jpg";
 import liquorWhite from "@/assets/liquor-white.jpg";
 import liquorSilver from "@/assets/liquor-silver.jpg";
@@ -20,6 +21,7 @@ import liquorCTC from "@/assets/liquor-ctc.jpg";
 import liquorPF1 from "@/assets/liquor-pf1.jpg";
 import liquorGreen from "@/assets/liquor-green.jpg";
 import liquorPurple from "@/assets/liquor-purple.jpg";
+import liquorOolong from "@/assets/liquor-oolong.jpg";
 
 const products = [
   {
@@ -196,6 +198,22 @@ const products = [
       time: "3-4 minutes",
       ratio: "2.5g per 200ml water",
       instructions: "Use slightly cooled boiling water to preserve the delicate purple color and antioxidants. First steep for 3-4 minutes to develop full flavor and color. Can be re-steeped once. Add a squeeze of lemon to enhance the purple hue. Best enjoyed without milk to appreciate the unique color transformation."
+    }
+  },
+  {
+    name: "Oolong Tea",
+    image: teaOolong,
+    liquorImage: liquorOolong,
+    grade: "Oolong Tea",
+    description: "Semi-oxidized specialty tea combining the characteristics of both green and black teas. Carefully crafted through a unique partial oxidation process, resulting in a distinctive flavor profile that bridges the freshness of green tea with the richness of black tea.",
+    type: "Specialty Tea",
+    liquorColor: "Golden amber with orange tones, clear and bright with a warm, inviting hue. The liquor displays excellent clarity with a slight golden shimmer.",
+    taste: "Complex and nuanced flavor profile with a perfect balance between floral sweetness and subtle earthiness. Notes of orchid, honey, and toasted nuts blend harmoniously with hints of stone fruit and a gentle woody undertone. Smooth body with minimal astringency and a naturally sweet, lingering aftertaste. The semi-oxidation creates a unique character - lighter than black tea but fuller than green tea.",
+    brewing: {
+      temperature: "85-95°C (185-203°F)",
+      time: "3-5 minutes",
+      ratio: "3g per 200ml water",
+      instructions: "Use water just below boiling to preserve the delicate floral notes while developing the full complexity. First infusion should be 3-5 minutes. Oolong tea can be re-steeped 3-5 times, increasing the steeping time by 30 seconds with each subsequent infusion. Best enjoyed without milk to appreciate the intricate flavor evolution. Serve in a small teapot or gaiwan for traditional preparation."
     }
   },
 ];
