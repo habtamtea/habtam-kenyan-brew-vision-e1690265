@@ -1,0 +1,8 @@
+name = "habtam-kenyan-brew"
+compatibility_date = "2025-10-14"
+
+[build]
+command = "npm install && npm run build"
+
+[build.upload]
+format = "service-worker"
