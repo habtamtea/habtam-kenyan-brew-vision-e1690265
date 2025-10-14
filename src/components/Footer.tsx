@@ -21,7 +21,7 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Contact Info</h4>
             <ul className="space-y-2 text-primary-foreground/80">
-              <li>Nairobi, Kenya</li>
+              <li>Mombasa, Kenya</li>
               <li>info@habtamltd.com</li>
               <li>+254 XXX XXX XXX</li>
             </ul>
