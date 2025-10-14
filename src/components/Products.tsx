@@ -217,7 +217,7 @@ const Products = () => {
                   </Badge>
                 </div>
                 <CardDescription className="text-base font-sans">
-                  PF1 Grade: {product.grade}
+                  Grade: PF1 (Pekoe Fannings 1) {product.grade}
                 </CardDescription>
               </CardHeader>
               <CardContent>
