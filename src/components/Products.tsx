@@ -212,9 +212,9 @@ const Products = () => {
               <CardHeader>
                 <div className="flex items-start justify-between mb-2">
                   <CardTitle className="text-2xl text-foreground font-serif">{product.name}</CardTitle>
-                  <Badge variant="secondary" className="bg-accent text-accent-foreground">
-                    {product.type}
-                  </Badge>
+                <Badge variant="secondary" className="bg-accent text-accent-foreground">
+                  CTC Black
+                </Badge>
                 </div>
                 <CardDescription className="text-base font-sans">
                   Grade: {product.grade}
