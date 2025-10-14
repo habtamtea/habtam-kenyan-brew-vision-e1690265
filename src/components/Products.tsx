@@ -11,6 +11,7 @@ import teaPekoe from "@/assets/tea-pekoe.jpg";
 import teaDustFine from "@/assets/tea-dust-fine.jpg";
 import teaCTC from "@/assets/tea-ctc.jpg";
 import teaPF1 from "@/assets/tea-pf1.jpg";
+import teaPurple from "@/assets/tea-purple.jpg";
 import liquorBlack from "@/assets/liquor-black.jpg";
 import liquorWhite from "@/assets/liquor-white.jpg";
 import liquorSilver from "@/assets/liquor-silver.jpg";
@@ -18,6 +19,7 @@ import liquorGolden from "@/assets/liquor-golden.jpg";
 import liquorCTC from "@/assets/liquor-ctc.jpg";
 import liquorPF1 from "@/assets/liquor-pf1.jpg";
 import liquorGreen from "@/assets/liquor-green.jpg";
+import liquorPurple from "@/assets/liquor-purple.jpg";
 
 const products = [
   {
@@ -178,6 +180,22 @@ const products = [
       time: "2-3 minutes",
       ratio: "2g per 200ml water",
       instructions: "Use cooler water to prevent bitterness. First infusion 2-3 minutes, can be re-steeped 2-3 times. Best enjoyed without milk or sugar to appreciate the delicate flavor."
+    }
+  },
+  {
+    name: "Purple Tea",
+    image: teaPurple,
+    liquorImage: liquorPurple,
+    grade: "Upper Purple Tea",
+    description: "Rare and exotic purple tea from Kenya's highland estates, rich in anthocyanins and antioxidants. This unique cultivar produces leaves with naturally purple hues, offering both health benefits and distinctive character.",
+    type: "Specialty Tea",
+    liquorColor: "Vibrant violet-purple with pinkish undertones, becoming deeper when steeped longer. The unique color changes to deep magenta with addition of lemon.",
+    taste: "Smooth and mellow with minimal astringency. Naturally sweet with delicate floral notes and hints of woody earthiness. Subtle berry-like undertones with a clean, refreshing finish. Less caffeine than black tea but richer in polyphenols.",
+    brewing: {
+      temperature: "85-90°C (185-194°F)",
+      time: "3-4 minutes",
+      ratio: "2.5g per 200ml water",
+      instructions: "Use slightly cooled boiling water to preserve the delicate purple color and antioxidants. First steep for 3-4 minutes to develop full flavor and color. Can be re-steeped once. Add a squeeze of lemon to enhance the purple hue. Best enjoyed without milk to appreciate the unique color transformation."
     }
   },
 ];
