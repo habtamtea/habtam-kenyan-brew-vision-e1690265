@@ -69,7 +69,7 @@ const products = [
     }
   },
   {
-    name: "Premium Black Tea",
+    name: "Golden Tips GFOP",
     image: teaGolden,
     liquorImage: liquorGolden,
     grade: "GFOP (Golden Flowery Orange Pekoe)",
@@ -85,7 +85,7 @@ const products = [
     }
   },
   {
-    name: "Premium Black Tea",
+    name: "CTC Dust Grade D1",
     image: teaDust,
     liquorImage: liquorCTC,
     grade: "D1 (Dust Grade 1)",
@@ -101,7 +101,7 @@ const products = [
     }
   },
   {
-    name: "Premium Black Tea",
+    name: "Broken Pekoe Fannings",
     image: teaFannings,
     liquorImage: liquorBlack,
     grade: "BPF (Broken Pekoe Fannings)",
@@ -117,7 +117,7 @@ const products = [
     }
   },
   {
-    name: "Premium Black Tea",
+    name: "Broken Pekoe",
     image: teaPekoe,
     liquorImage: liquorBlack,
     grade: "BP (Broken Pekoe)",
@@ -133,7 +133,7 @@ const products = [
     }
   },
   {
-    name: "Premium Black Tea",
+    name: "Fine Dust Grade",
     image: teaDustFine,
     liquorImage: liquorCTC,
     grade: "Dust (Fine Grade)",
@@ -149,7 +149,7 @@ const products = [
     }
   },
   {
-    name: "Premium Black Tea",
+    name: "CTC Premium Grade",
     image: teaCTC,
     liquorImage: liquorCTC,
     grade: "CTC Premium",
@@ -212,9 +212,9 @@ const Products = () => {
               <CardHeader>
                 <div className="flex items-start justify-between mb-2">
                   <CardTitle className="text-2xl text-foreground font-serif">{product.name}</CardTitle>
-                <Badge variant="secondary" className="bg-accent text-accent-foreground">
-                  CTC Black
-                </Badge>
+                  <Badge variant="secondary" className="bg-accent text-accent-foreground">
+                    {product.type}
+                  </Badge>
                 </div>
                 <CardDescription className="text-base font-sans">
                   Grade: {product.grade}
