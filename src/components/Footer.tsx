@@ -23,7 +23,7 @@ const Footer = () => {
             <ul className="space-y-2 text-primary-foreground/80">
               <li>Mombasa, Kenya</li>
               <li>info@habtamltd.com</li>
-              <li>+254 XXX XXX XXX</li>
+              <li>+254 722 670 995</li>
             </ul>
           </div>
         </div>
