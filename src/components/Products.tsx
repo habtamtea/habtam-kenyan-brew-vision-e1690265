@@ -216,6 +216,9 @@ const Products = () => {
                     {product.type}
                   </Badge>
                 </div>
+                <CardDescription className="text-base font-sans">
+                  Grade: {product.grade}
+                </CardDescription>
               </CardHeader>
               <CardContent>
                 <Tabs defaultValue="overview" className="w-full">
