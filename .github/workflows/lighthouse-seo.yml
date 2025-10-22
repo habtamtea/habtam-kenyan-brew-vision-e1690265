@@ -1,0 +1,20 @@
+name: Lighthouse SEO Audit
+
+on:
+  schedule:
+    - cron: '0 9 * * 1'  # every Monday
+  push:
+    branches: [ main ]
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Run Lighthouse SEO audit
+        uses: treosh/lighthouse-ci-action@v11
+        with:
+          urls: 'https://www.habtamltd.com'
+          uploadArtifacts: true
+          temporaryPublicStorage: true
