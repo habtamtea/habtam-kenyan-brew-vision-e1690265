@@ -220,8 +220,7 @@ const products = [
 
 const Products = () => {
   return (
-    <section className="py-20 bg-gradient-subtle">
-      <div className="container px-4">
+      <section id="products" className="py-20 bg-gradient-subtle">      <div className="container px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground font-serif">
             Our Premium Tea Selection
