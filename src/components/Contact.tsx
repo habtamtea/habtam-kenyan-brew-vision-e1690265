@@ -5,8 +5,7 @@ import brewingImage from "@/assets/tea-brewing.jpg";
 
 const Contact = () => {
   return (
-    <section className="py-20 bg-gradient-subtle">
-      <div className="container px-4">
+      <section id="contact" className="py-20 bg-gradient-subtle">      <div className="container px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
