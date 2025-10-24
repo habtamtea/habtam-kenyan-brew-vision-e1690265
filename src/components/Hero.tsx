@@ -27,13 +27,11 @@ const Hero = () => {
           Sourcing the finest quality tea from Kenya's highlands, delivering excellence to importers worldwide
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-         <Button onClick={() => document.getElementById('products')?.scrollIntoView({ behavior: 'smooth' })} size="lg" variant="default" className="bg-accent
-
+          <Button size="lg" variant="default" className="bg-accent hover:bg-accent/90 text-accent-foreground">
             Our Products
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
-          <Button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} size="lg" variant="outline" className="bg-primary-foreground/10 backdrop-blur-sm border-primary-fore
-
+          <Button size="lg" variant="outline" className="bg-primary-foreground/10 backdrop-blur-sm border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
             Contact Us
           </Button>
         </div>
