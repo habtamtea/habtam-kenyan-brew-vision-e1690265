@@ -57,12 +57,12 @@ const products = [
     }
   },
   {
-    name: "Golden Needle Orthodox",
+    name: "White Golden Tips",
     image: teaSilver,
     liquorImage: liquorSilver,
     grade: "Premium Golden Needle",
     description: "Finest quality silver needle tea with exceptional clarity and refinement",
-    type: "White Tea",
+    type: " Speciality White",
     liquorColor: "Silvery-white with golden undertones, brilliant clarity",
     taste: "Exceptionally smooth with sweet vegetal notes, hints of cucumber and melon. Clean finish with lingering sweetness and subtle grassiness.",
     brewing: {
@@ -73,7 +73,7 @@ const products = [
     }
   },
   {
-    name: "Golden Tips GFOP",
+    name: "Premium Black Tea",
     image: teaGolden,
     liquorImage: liquorGolden,
     grade: "GFOP (Golden Flowery Orange Pekoe)",
@@ -89,7 +89,7 @@ const products = [
     }
   },
   {
-    name: "CTC Dust Grade D1",
+    name: "Premium Black Tea",
     image: teaDust,
     liquorImage: liquorCTC,
     grade: "D1 (Dust Grade 1)",
@@ -105,12 +105,12 @@ const products = [
     }
   },
   {
-    name: "Broken Pekoe Fannings",
+    name: "Premium Back Tea",
     image: teaFannings,
     liquorImage: liquorBlack,
-    grade: "BPF (Broken Pekoe Fannings)",
+    grade: "PDust 1 (Pekoe Dust 1)",
     description: "Premium fannings offering quick brewing and consistent strength",
-    type: "Orthodox Black",
+    type: "CTC Black",
     liquorColor: "Rich reddish-brown with good brightness",
     taste: "Strong and full with brisk character. Well-balanced astringency and malty sweetness. Excellent for blending and commercial applications.",
     brewing: {
@@ -121,12 +121,12 @@ const products = [
     }
   },
   {
-    name: "Broken Pekoe",
+    name: "Premium Black Tea",
     image: teaPekoe,
     liquorImage: liquorBlack,
-    grade: "BP (Broken Pekoe)",
+    grade: "BP 1 (Broken Pekoe 1)",
     description: "Classic broken leaf grade with excellent balance and strength",
-    type: "Orthodox Black",
+    type: "CTC Black",
     liquorColor: "Deep amber-brown with reddish tint",
     taste: "Well-rounded with good body. Balanced malty notes with moderate astringency. Clean finish with subtle fruit undertones.",
     brewing: {
@@ -137,10 +137,10 @@ const products = [
     }
   },
   {
-    name: "Fine Dust Grade",
+    name: "Premium Black Tea",
     image: teaDustFine,
     liquorImage: liquorCTC,
-    grade: "Dust (Fine Grade)",
+    grade: "Dust 1 (Fine Dust Grade)",
     description: "Ultra-fine particles for maximum strength and color",
     type: "CTC Black",
     liquorColor: "Very dark brown-red, intense color",
@@ -156,7 +156,7 @@ const products = [
     name: "CTC Premium Grade",
     image: teaCTC,
     liquorImage: liquorCTC,
-    grade: "CTC Premium",
+    grade: "PF 1 (Pekoe Fannings 1)",
     description: "High-quality CTC processing for consistent, robust character",
     type: "CTC Black",
     liquorColor: "Dark coppery-brown with excellent brightness",
@@ -190,7 +190,7 @@ const products = [
     liquorImage: liquorPurple,
     grade: "Upper Purple Tea",
     description: "Rare and exotic purple tea from Kenya's highland estates, rich in anthocyanins and antioxidants. This unique cultivar produces leaves with naturally purple hues, offering both health benefits and distinctive character.",
-    type: "Specialty Tea",
+    type: "Specialty Purple",
     liquorColor: "Vibrant violet-purple with pinkish undertones, becoming deeper when steeped longer. The unique color changes to deep magenta with addition of lemon.",
     taste: "Smooth and mellow with minimal astringency. Naturally sweet with delicate floral notes and hints of woody earthiness. Subtle berry-like undertones with a clean, refreshing finish. Less caffeine than black tea but richer in polyphenols.",
     brewing: {
