@@ -223,7 +223,10 @@ const Products = () => {
     <section id="products" className="py-20 bg-gradient-subtle">
       <div className="container px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground font-serif">
+         <h2 id="products" className="text-4xl md:text-5xl font-bold mb-4 text-foreground font-serif">
+  Our Premium Tea Selection
+</h2>
+
           id="products"   Our Premium Tea Selection
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-sans">
