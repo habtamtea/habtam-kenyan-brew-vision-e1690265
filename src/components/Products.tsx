@@ -92,7 +92,7 @@ const products = [
     name: "Premium Black Tea",
     image: teaDust,
     liquorImage: liquorCTC,
-    grade: "D1 (Dust Grade 1)",
+    grade: "FNGS (Fannings Grade)",
     description: "Strong, brisk tea perfect for tea bags and robust blends",
     type: "CTC Black",
     liquorColor: "Dark coppery-red, intense and full-bodied",
