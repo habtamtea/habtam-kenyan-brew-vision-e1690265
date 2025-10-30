@@ -55,10 +55,22 @@ const Contact = () => {
               </Card>
             </div>
 
-            <Button size="lg" className="bg-gradient-accent border-0 text-accent-foreground hover:opacity-90">
-              Send Message
-              <Send className="ml-2 h-5 w-5" />
-            </Button>
+           <a
+  href={
+    "https://wa.me/254722670995?text=" +
+    encodeURIComponent(
+      "Greetings from Habtam Limited! 🍃🍵 We’re passionate about Kenyan tea and committed to your business success. Let us know your tea sourcing or shipping needs—we’re experts in premium Kenyan exports and ready to support your growth. 🍃"
+    )
+  }
+  target="_blank"
+  rel="noopener"
+>
+  <Button size="lg" className="bg-gradient-accent border-0 text-accent-foreground hover:opacity-90">
+    Send Message
+    <Send className="ml-2 h-5 w-5" />
+  </Button>
+</a>
+
           </div>
 
           <div className="relative">
