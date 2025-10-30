@@ -153,7 +153,7 @@ const products = [
     }
   },
   {
-    name: "CTC Premium Grade",
+    name: "Premium Black Tea",
     image: teaCTC,
     liquorImage: liquorCTC,
     grade: "PDust 1 (Pekoe Dust 1)",
