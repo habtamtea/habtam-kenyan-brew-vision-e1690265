@@ -1,3 +1,5 @@
+import { Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+
 const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground py-12">
@@ -27,8 +29,24 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="border-t border-primary-foreground/20 pt-8 text-center text-primary-foreground/60">
-          <p>&copy; {new Date().getFullYear()} Habtam Limited. All rights reserved.</p>
+        <div className="border-t border-primary-foreground/20 pt-8">
+          <div className="flex justify-center gap-6 mb-6">
+            <a href="https://facebook.com/habtamltd" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors" aria-label="Facebook">
+              <Facebook size={24} />
+            </a>
+            <a href="https://twitter.com/habtamltd" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors" aria-label="Twitter">
+              <Twitter size={24} />
+            </a>
+            <a href="https://linkedin.com/company/habtamltd" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors" aria-label="LinkedIn">
+              <Linkedin size={24} />
+            </a>
+            <a href="https://instagram.com/habtamltd" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors" aria-label="Instagram">
+              <Instagram size={24} />
+            </a>
+          </div>
+          <p className="text-center text-primary-foreground/60">
+            © {new Date().getFullYear()} Habtam Limited. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
