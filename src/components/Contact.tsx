@@ -5,7 +5,7 @@ import brewingImage from "@/assets/tea-brewing.jpg";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 bg-gradient-subtle">
+    <section className="py-20 bg-gradient-subtle" id="contact">
       <div className="container px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
@@ -16,7 +16,6 @@ const Contact = () => {
               Ready to partner with Kenya's premium tea exporter? Contact us to discuss 
               your requirements and experience the Habtam difference.
             </p>
-
             <div className="space-y-6 mb-8">
               <Card className="border-0 shadow-soft">
                 <CardContent className="p-6 flex items-start gap-4">
@@ -29,7 +28,6 @@ const Contact = () => {
                   </div>
                 </CardContent>
               </Card>
-
               <Card className="border-0 shadow-soft">
                 <CardContent className="p-6 flex items-start gap-4">
                   <div className="w-12 h-12 bg-gradient-accent rounded-xl flex items-center justify-center flex-shrink-0">
@@ -41,7 +39,6 @@ const Contact = () => {
                   </div>
                 </CardContent>
               </Card>
-
               <Card className="border-0 shadow-soft">
                 <CardContent className="p-6 flex items-start gap-4">
                   <div className="w-12 h-12 bg-gradient-accent rounded-xl flex items-center justify-center flex-shrink-0">
@@ -54,25 +51,17 @@ const Contact = () => {
                 </CardContent>
               </Card>
             </div>
-
-           <a
-  href={
-    "https://wa.me/254722670995?text=" +
-    encodeURIComponent(
-      "Greetings from Habtam Limited! 🍃🍵 We’re passionate about Kenyan tea and committed to your business success. Let us know your tea sourcing or shipping needs—we’re experts in premium Kenyan exports and ready to support your growth. 🍃"
-    )
-  }
-  target="_blank"
-  rel="noopener"
->
-  <Button size="lg" className="bg-gradient-accent border-0 text-accent-foreground hover:opacity-90">
-    Send Message
-    <Send className="ml-2 h-5 w-5" />
-  </Button>
-</a>
-
+            <a
+              href="https://wa.me/254722670995"
+              target="_blank"
+              rel="noopener"
+            >
+              <Button size="lg" className="bg-gradient-accent border-0 text-accent-foreground hover:opacity-90">
+                Send Message
+                <Send className="ml-2 h-5 w-5" />
+              </Button>
+            </a>
           </div>
-
           <div className="relative">
             <img
               src={brewingImage}
