@@ -4,7 +4,7 @@ import harvestingImage from "@/assets/tea-harvesting.jpg";
 
 const About = () => {
   return (
-    <section className="py-20 bg-background">
+    <section id="about" className="py-20 bg-background">
       <div className="container px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
           <div>
@@ -30,7 +30,7 @@ const About = () => {
             />
           </div>
         </div>
-
+        
         {/* Values */}
         <div className="grid md:grid-cols-3 gap-8">
           <Card className="border-0 shadow-soft hover:shadow-elegant transition-shadow">
@@ -64,10 +64,10 @@ const About = () => {
               <div className="w-12 h-12 bg-gradient-accent rounded-xl flex items-center justify-center mb-4">
                 <TrendingUp className="h-6 w-6 text-accent-foreground" />
               </div>
-              <h3 className="text-2xl font-bold mb-3 text-foreground">Our Objectives</h3>
+              <h3 className="text-2xl font-bold mb-3 text-foreground">Our Vision</h3>
               <p className="text-muted-foreground">
-                Establish strategic relationships with premium tea importers globally, increase sales substantially, 
-                and improve profit margins through the use of advanced technology and efficient operations.
+                To be the premier source of high-quality Kenyan tea in the global market, recognized for 
+                excellence, reliability, and customer satisfaction.
               </p>
             </CardContent>
           </Card>
