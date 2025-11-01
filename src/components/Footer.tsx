@@ -14,13 +14,10 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-primary-foreground/80">
-          <ul>
-  <li><a href="#about">About Us</a></li>
-  <li><a href="#products">Our Products</a></li>
-  <li><a href="#services">Services</a></li>
-  <li><a href="#contact">Contact</a></li>
-</ul>
-
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#products">Our Products</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
           <div>
@@ -34,16 +31,40 @@ const Footer = () => {
         </div>
         <div className="border-t border-primary-foreground/20 pt-8">
           <div className="flex justify-center gap-6 mb-6">
-            <a href="https://facebook.com/habtamltd" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors" aria-label="Facebook">
+            <a
+              href="https://facebook.com/habtamltd"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+              aria-label="Facebook"
+            >
               <Facebook size={24} />
             </a>
-            <a href="https://twitter.com/habtamltd" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors" aria-label="Twitter">
+            <a
+              href="https://twitter.com/habtamltd"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+              aria-label="Twitter"
+            >
               <Twitter size={24} />
             </a>
-            <a href="https://linkedin.com/company/habtamltd" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors" aria-label="LinkedIn">
+            <a
+              href="https://linkedin.com/company/habtamltd"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+              aria-label="LinkedIn"
+            >
               <Linkedin size={24} />
             </a>
-            <a href="https://instagram.com/habtamltd" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors" aria-label="Instagram">
+            <a
+              href="https://instagram.com/habtamltd"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+              aria-label="Instagram"
+            >
               <Instagram size={24} />
             </a>
           </div>
