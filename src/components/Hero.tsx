@@ -49,12 +49,12 @@ const Hero = () => {
       
       {/* Scroll Indicator */}
       <a
-        href="#products"
-        aria-label="Scroll to products"
+        href="#services"
+        aria-label="Scroll to services"
         className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 animate-bounce cursor-pointer"
         onClick={(e) => {
           e.preventDefault();
-          document.getElementById('products')?.scrollIntoView({ behavior: 'smooth' });
+          document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
         }}
       >
         <div className="w-6 h-10 border-2 border-primary-foreground rounded-full flex items-start justify-center p-2">
