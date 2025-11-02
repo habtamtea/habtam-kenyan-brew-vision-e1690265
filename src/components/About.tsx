@@ -23,7 +23,7 @@ const About = () => {
             </p>
           </div>
           <div className="relative">
-            <img
+            <img 
               src={harvestingImage}
               alt="Tea harvesting in Kenya"
               className="rounded-2xl shadow-elegant w-full"
@@ -33,7 +33,7 @@ const About = () => {
         
         {/* Values */}
         <div className="grid md:grid-cols-3 gap-8">
-          <Card className="border-0 shadow-soft hover:shadow-elegant transition-shadow">
+          <Card className="border-0 shadow-soft hover:shadow-elegant transition-all duration-300 hover:-translate-y-1">
             <CardContent className="p-8">
               <div className="w-12 h-12 bg-gradient-accent rounded-xl flex items-center justify-center mb-4">
                 <Target className="h-6 w-6 text-accent-foreground" />
@@ -45,8 +45,8 @@ const About = () => {
               </p>
             </CardContent>
           </Card>
-
-          <Card className="border-0 shadow-soft hover:shadow-elegant transition-shadow">
+          
+          <Card className="border-0 shadow-soft hover:shadow-elegant transition-all duration-300 hover:-translate-y-1">
             <CardContent className="p-8">
               <div className="w-12 h-12 bg-gradient-accent rounded-xl flex items-center justify-center mb-4">
                 <Heart className="h-6 w-6 text-accent-foreground" />
@@ -58,8 +58,8 @@ const About = () => {
               </p>
             </CardContent>
           </Card>
-
-          <Card className="border-0 shadow-soft hover:shadow-elegant transition-shadow">
+          
+          <Card className="border-0 shadow-soft hover:shadow-elegant transition-all duration-300 hover:-translate-y-1">
             <CardContent className="p-8">
               <div className="w-12 h-12 bg-gradient-accent rounded-xl flex items-center justify-center mb-4">
                 <TrendingUp className="h-6 w-6 text-accent-foreground" />
