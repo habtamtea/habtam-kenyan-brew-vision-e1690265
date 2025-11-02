@@ -248,6 +248,9 @@ const Products = () => {
                 <img
                   src={product.image}
                   alt={product.name}
+                  width="400"
+                  height="300"
+                  loading="lazy"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
@@ -275,6 +278,9 @@ const Products = () => {
                       <img 
                         src={product.liquorImage} 
                         alt={`${product.name} liquor`}
+                        width="400"
+                        height="300"
+                        loading="lazy"
                         className="w-20 h-20 rounded-lg object-cover"
                       />
                       <div>

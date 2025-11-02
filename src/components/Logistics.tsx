@@ -21,6 +21,9 @@ const Logistics = () => {
             <img 
               src={warehouse} 
               alt="Tea warehouse facility"
+              width="600"
+              height="400"
+              loading="lazy"
               className="w-full h-64 object-cover"
             />
             <CardContent className="p-8">
@@ -57,6 +60,9 @@ const Logistics = () => {
             <img 
               src={shippingPort} 
               alt="International shipping port"
+              width="600"
+              height="400"
+              loading="lazy"
               className="w-full h-64 object-cover"
             />
             <CardContent className="p-8">
