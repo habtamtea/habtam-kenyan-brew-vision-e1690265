@@ -228,14 +228,10 @@ const Products = () => {
   Our Premium Tea Selection
 </h2>
 <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-sans">
-  Carefully sourced from Kenya's finest tea estates, each variety represents 
+  231
+  's finest tea estates, each variety represents 
   the pinnacle of quality and craftsmanship
 </p>
-
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-sans">
-            Carefully sourced from Kenya's finest tea estates, each variety represents 
-            the pinnacle of quality and craftsmanship
-          </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
