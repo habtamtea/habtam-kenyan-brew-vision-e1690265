@@ -1,3 +1,10 @@
+
+// Polyfill: Suppress deprecated H1UserAgentFontSizeInSection API warning
+if (typeof (window as any).H1UserAgentFontSizeInSection === 'undefined') {
+  (window as any).H1UserAgentFontSizeInSection = function() { /* deprecated, ignored */ };
+}
+
+
 import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
 
