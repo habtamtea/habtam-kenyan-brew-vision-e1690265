@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <section className="py-20 bg-gradient-subtle" id="contact">
       <div className="container px-4">
-        <div className="max-w-2xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground text-center">
             Get In Touch
           </h2>
@@ -14,6 +14,8 @@ const Contact = () => {
             Ready to partner with Kenya's premium tea exporter? Contact us to discuss 
             your requirements and experience the Habtam difference.
           </p>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                          <div>
           <div className="space-y-6 mb-8">
             <Card className="border-0 shadow-soft">
               <CardContent className="p-6 flex items-start gap-4">
@@ -61,6 +63,11 @@ const Contact = () => {
               </Button>
             </a>
           </div>
+                                    </div>
+                        <div className="flex items-center justify-center">
+                                    <img src="/assets/tea-cup.jpg" alt="Premium Kenyan Tea" className="rounded-lg shadow-lg w-full h-auto" />
+                                  </div>
+                        </div>
         </div>
       </div>
     </section>
