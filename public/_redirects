@@ -1,1 +1,4 @@
+/about 404
+/forgot-password 404
+/cgi-sys/* 404
 /* /index.html 200
