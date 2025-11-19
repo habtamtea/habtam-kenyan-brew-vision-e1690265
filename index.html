@@ -8,7 +8,13 @@
         <link rel="preload" href="https://fonts.googleapis.com/css2?family=Bigilla&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" as="style"/>
     
     <link href="https://fonts.googleapis.com/css2?family=Bigilla&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+
     
+    <!-- Performance optimization: Preload LCP image -->
+    <link rel="preload" as="image" href="/assets/hero-tea-plantation.jpg" imagesrcset="/assets/hero-tea-plantation.jpg" imagesizes="100vw" type="image/jpeg">
+    <!-- Prefetch additional critical images -->
+    <link rel="prefetch" as="image" href="/assets/tea-black-Dive_Naa.jpg">
+    <link rel="prefetch" as="image" href="/assets/tea-harve.jpg">
     <!-- Favicon links -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.jpg" />
