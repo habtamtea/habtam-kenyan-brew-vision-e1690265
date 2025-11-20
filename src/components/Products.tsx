@@ -223,15 +223,37 @@ const Products = () => {
     <section id="products" className="py-20 bg-gradient-subtle">
       <div className="container px-4">
         <div className="text-center mb-16">
-          
-         <h2 id="products" className="text-4xl md:text-5xl font-bold mb-4 text-foreground font-serif">
-  Our Premium Tea Selection
-</h2>
-<p className="text-lg text-muted-foreground max-w-2xl mx-auto font-sans">
-  Carefully sourced from Kenya's finest tea estates, each variety represents 
-  the pinnacle of quality and craftsmanship
-</p>
-
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground font-serif">
+            Our Premium Tea Selection
+          </h2>
+          <div className="max-w-4xl mx-auto space-y-4">
+            <p className="text-lg text-muted-foreground font-sans">
+              Habtam Limited proudly exports an exceptional range of premium Kenyan tea varieties, each carefully 
+              sourced from the country's most prestigious tea-growing regions. Kenya is renowned globally for producing 
+              some of the world's finest tea, and our selection showcases the best of what this East African nation 
+              has to offer. From the rolling hills of Kericho to the fertile slopes of Mount Kenya and the lush 
+              highlands of Nandi, we work exclusively with certified tea estates that uphold the highest standards 
+              of cultivation and processing.
+            </p>
+            <p className="text-lg text-muted-foreground font-sans">
+              Our product portfolio features premium black tea in multiple grades including FOP (Flowery Orange Pekoe), 
+              GFOP (Golden Flowery Orange Pekoe), and PEKOE, each offering distinct flavor profiles and characteristics. 
+              We also specialize in rare specialty varieties such as white silver tips, golden needle tea, and Kenya's 
+              unique purple tea—a variety rich in anthocyanins with exceptional health benefits. For clients seeking 
+              robust, full-bodied brews, our CTC (Crush, Tear, Curl) teas deliver the strength and color preferred in 
+              many international markets, while our orthodox-processed teas cater to discerning palates appreciating 
+              complex, nuanced flavors.
+            </p>
+            <p className="text-lg text-muted-foreground font-sans">
+              Every tea variety we export undergoes rigorous quality grading based on leaf size, appearance, liquor 
+              color, and taste profile. We offer flexible minimum order quantities starting from 500kg for specialty 
+              varieties and 1000kg for standard grades, with bulk wholesale options available for larger distributors. 
+              All our teas are available in various packaging formats—from 25kg and 50kg export-grade sacks to 
+              customized packaging solutions tailored to your market requirements. Whether you're an established tea 
+              importer or a growing wholesale tea supplier, our team provides detailed product specifications, sample 
+              orders, and expert guidance to help you select the perfect varieties for your customers.
+            </p>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
