@@ -14,13 +14,5 @@ export default defineConfig(({ mode }) => ({
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
-    build: {
-      assetsInlineLimit: 4096,
-      rollupOptions: {
-        output: {
-          assetFileNames: 'assets/[name]-[hash][extname]',
-        },
-      },
-    },
   },
 }));

@@ -26,9 +26,6 @@ const About = () => {
             <img 
               src={harvestingImage}
               alt="Tea harvesting in Kenya"
-              width="800"
-              height="600"
-              loading="lazy"
               className="rounded-2xl shadow-elegant w-full"
             />
           </div>

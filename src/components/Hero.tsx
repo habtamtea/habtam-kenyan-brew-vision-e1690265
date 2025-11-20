@@ -10,9 +10,6 @@ const Hero = () => {
         <img
           src={heroImage}
           alt="Lush tea plantations in Kenya"
-          width="1920"
-          height="1080"
-          loading="eager"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-hero"></div>
