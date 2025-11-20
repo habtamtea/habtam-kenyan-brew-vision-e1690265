@@ -1,15 +1,46 @@
+# robots.txt for Habtam Limited - Premium Kenyan Tea Exporters
+# This file controls how search engines crawl and index our website
+
+# Googlebot - Optimized for fastest crawling
 User-agent: Googlebot
-Allow: /
+Disallow: /login
+Disallow: /cdn-cgi/
+Disallow: /index.php
+Disallow: /index.html
+Disallow: /admin/
+Crawl-delay: 0
 
+# Bingbot - Microsoft's search crawler
 User-agent: Bingbot
-Allow: /
+Disallow: /login
+Disallow: /cdn-cgi/
+Disallow: /index.php
+Disallow: /index.html
+Disallow: /admin/
+Crawl-delay: 1
 
+# Twitterbot - For Twitter card previews
 User-agent: Twitterbot
+Disallow: /login
+Disallow: /cdn-cgi/
+Disallow: /admin/
 Allow: /
 
+# Facebook External Hit - For Facebook link previews
 User-agent: facebookexternalhit
+Disallow: /login
+Disallow: /cdn-cgi/
+Disallow: /admin/
 Allow: /
 
+# All other bots - General crawl rules
 User-agent: *
-Allow: /
+Disallow: /login
+Disallow: /cdn-cgi/
+Disallow: /index.php
+Disallow: /index.html
+Disallow: /admin/
+Crawl-delay: 1
+
+# Sitemap location for search engines
 Sitemap: https://www.habtamltd.com/sitemap.xml
