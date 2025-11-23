@@ -9,11 +9,15 @@ import About from "./pages/About";
 import Products from "./pages/Products";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
+import { Helmet } from "react-helmet-async";
 
 const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
+          <Helmet>
+        <link rel="canonical" href="https://www.habtamltd.com/" />
+      </Helmet>
     <TooltipProvider>
       <Toaster />
       <Sonner />
