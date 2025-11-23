@@ -22,11 +22,11 @@ export default function Contact() {
             </div>
             <div className="info-item">
               <h3>Phone</h3>
-              <p><a href="tel:+254700000000">+254 (0) 700 000 000</a></p>
+              <p><a href="tel:+254722670995">+254 (0) 700 000 000</a></p>
             </div>
             <div className="info-item">
               <h3>Location</h3>
-              <p>Nairobi, Kenya</p>
+              <p>Mombasa, Kenya</p>
             </div>
             <div className="info-item">
               <h3>Business Hours</h3>
