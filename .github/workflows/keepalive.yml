@@ -1,0 +1,20 @@
+name: Keepalive Workflow
+
+on:
+  # Run every 50 days to prevent workflow disablement
+  schedule:
+    - cron: '0 0 */50 * *'
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Keepalive
+        uses: gautamkrishnar/keepalive-workflow@v2
