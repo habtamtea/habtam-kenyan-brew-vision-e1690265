@@ -51,6 +51,20 @@
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
     
+    <!-- Force Tidio widget to show on mobile -->
+    <style>
+      @media (max-width: 768px) {
+        #tidio-chat,
+        #tidio-chat-iframe,
+        .tidio-1,
+        [id^="tidio"],
+        [class^="tidio"] {
+          display: block !important;
+          visibility: visible !important;
+          opacity: 1 !important;
+        }
+      }
+    </style>
     <!-- Tidio Chat Widget -->
     <script src="https://code.tidio.co/hny9ck2l88oubkk04z0bq5rvqomvgbvk.js" async></script>
   </body>
