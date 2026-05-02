@@ -11,10 +11,17 @@ jobs:
   keepalive:
     runs-on: ubuntu-latest
     permissions:
-      actions: write
-    
+      contents: write
+
     steps:
-      - uses: actions/checkout@v4
-      
-      - name: Keepalive
-        uses: gautamkrishnar/keepalive-workflow@v2
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Keep repository active
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git commit --allow-empty -m "chore: keepalive [skip ci]"
+          git push
