@@ -1,0 +1,6 @@
+# Security contact for habtamltd.com
+Contact: mailto:info@habtamltd.com
+Expires: 2027-07-02T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://www.habtamltd.com/.well-known/security.txt
+Policy: https://www.habtamltd.com/security-policy
