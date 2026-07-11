@@ -6,7 +6,7 @@ const WhyChoose = () => {
     {
       icon: Award,
       title: "Quality Standards & Certifications",
-      description: "All our tea exports are backed by internationally recognized certifications including ISO 22000 for food safety management, Fair Trade certification ensuring ethical sourcing, and Rainforest Alliance certification promoting sustainable farming practices. We adhere to stringent quality protocols with comprehensive lab testing for every batch, ensuring compliance with EU, US, and international food safety regulations. Our commitment to quality excellence means you receive consistently superior tea that meets the highest global standards."
+      description: "Habtam Limited holds a valid Rainforest Alliance endorsement (Code: RALI23-023619, valid through March 2029), meeting the Rainforest Alliance Sustainable Agriculture Standard 2020. Our tea is traded and warehoused under Identity Preserved and Segregation traceability levels, ensuring full chain-of-custody for every shipment. We adhere to stringent quality protocols with comprehensive batch testing and compliance with EU, US, and international food safety regulations."
     },
     {
       icon: Leaf,
