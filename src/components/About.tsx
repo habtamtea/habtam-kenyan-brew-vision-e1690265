@@ -18,12 +18,11 @@ const About = () => {
               to excellence has positioned us as a trusted partner for tea importers and distributors worldwide.
             </p>
             <p className="text-lg text-muted-foreground mb-6 font-sans">
-              Founded by industry veterans Mr. Tefera Zerihun Mengesha and Ms. Sandra Kinya Murithi, Habtam Limited 
-              was established with a vision to bridge the gap between Kenya's world-renowned tea estates and global 
-              markets seeking authentic, high-quality African tea. Mr. Mengesha brings over 15 years of experience 
-              in distribution and supply chain management, having worked extensively with leading tea producers across 
-              East Africa. Ms. Murithi contributes her expertise in sales management and international customer relations, 
-              cultivated through years of serving diverse clientele in the premium tea segment.
+              Founded by industry veteran Mr. Zerihun Mengesha Tefera , Habtam Limited was established with a vision to bridge the 
+              gap between Kenya's world-renowned tea estates and global markets seeking authentic, high-quality African tea. 
+              Mr. Tefera brings over 15 years of experience in distribution and supply chain management, having worked extensively
+              with leading tea producers across Africa. Mr. Tefera further contributes his expertise in sales management and 
+              international customer relations, cultivated through years of serving diverse clientele in the premium tea segment.
             </p>
             <p className="text-lg text-muted-foreground mb-6 font-sans">
               Our expertise in tea sourcing and export is rooted in deep relationships with certified tea estates 
