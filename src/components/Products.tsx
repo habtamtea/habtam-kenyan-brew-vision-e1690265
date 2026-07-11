@@ -105,7 +105,7 @@ const products = [
     }
   },
   {
-    name: "Premium Back Tea",
+    name: "Premium Black Tea",
     image: teaFannings,
     liquorImage: liquorBlack,
     grade: "PF 1 (Pekoe Fannings 1)",
