@@ -31,16 +31,16 @@ const Footer = () => {
         </div>
         <div className="border-t border-primary-foreground/20 pt-8">
           <div className="flex justify-center gap-6 mb-6">
-            <a href="https://facebook.com/habtamltd" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors" aria-label="Facebook">
+            <a href="#" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors" aria-label="Facebook">
               <Facebook size={24} />
             </a>
-            <a href="https://twitter.com/habtamltd" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors" aria-label="Twitter">
+            <a href="#" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors" aria-label="Twitter">
               <Twitter size={24} />
             </a>
-            <a href="https://linkedin.com/company/habtamltd" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors" aria-label="LinkedIn">
+            <a href="#" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors" aria-label="LinkedIn">
               <Linkedin size={24} />
             </a>
-            <a href="https://instagram.com/habtamltd" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors" aria-label="Instagram">
+            <a href="#" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors" aria-label="Instagram">
               <Instagram size={24} />
             </a>
           </div>
